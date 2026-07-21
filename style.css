@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(19, 13, 33);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navLeft img{
+    width: 180px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.search p{
+    font-size: 2rem;
+}
+
+.search input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search input:active{
+    border: 1px solid black;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: start;
+}
+
+.cards img{
+    width: 250px;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
